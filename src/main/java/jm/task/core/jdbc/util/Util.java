@@ -15,7 +15,7 @@ public class Util {
     private static final String DRIVER_CLASS_NAME = "com.mysql.cj.jdbc.Driver";
     private static final String URL = "jdbc:mysql://localhost:3306/test_db";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "root9209";
+    private static final String PASSWORD = "root";
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName(DRIVER_CLASS_NAME);
